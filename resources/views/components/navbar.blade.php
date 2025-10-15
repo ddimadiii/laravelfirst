@@ -27,6 +27,22 @@
                 class="{{ request()->is('student') ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium">
                 Student
               </a>
+              <a href="/teachers"
+                class="{{ request()->is('teacher') ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium">
+                Teachers
+              </a>
+              <a href="/subjects"
+                class="{{ request()->is('subject') ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium">
+                Subjects
+              </a>
+              <a href="/guardians"
+                class="{{ request()->is('guardian') ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium">
+                Guardians
+              </a>
+              <a href="/classrooms"
+                class="{{ request()->is('classroom') ? 'bg-gray-950/50 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium">
+                Classrooms
+              </a>
 
               <!-- <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Calendar</a>
               <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Reports</a> -->
